@@ -5,6 +5,9 @@ public class Osoba {
     private String sex;
 
     public Osoba() {
+        imie = "Anonim";
+        rokUrodzenia = 0;
+        sex = "N/A";
     }
 
     public String getImie() {
