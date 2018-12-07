@@ -14,7 +14,7 @@ public class Main {
             int rand = (int) (Math.random() * tablicaImion.length);
 
             osoba.setRokUrodzenia(tablicaWiek[rand]);
-            osoba.setSex(tablicaSex[rand]);
+            osoba.setSex(tablicaSex[i]);
             osoba.przedstawSie();
         }
     }
