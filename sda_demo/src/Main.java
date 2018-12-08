@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,7 +15,15 @@ public class Main {
 
             osoba.setRokUrodzenia(tablicaWiek[rand]);
             osoba.setSex(tablicaSex[i]);
-            osoba.przedstawSie();
+
+            if (osoba.czyKobieta(osoba.getSex())){
+                osoba.przedstawSie();
+            }
+
         }
+
+
+
+
     }
 }
