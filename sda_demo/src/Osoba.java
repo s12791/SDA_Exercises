@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Osoba {
 
     private String imie;
@@ -41,10 +39,10 @@ public class Osoba {
         System.out.println("mam na imie " + imie + " ,rok urodzenia " + rokUrodzenia + " moja plec to " + sex + "");
     }
 
-    public boolean czyKobieta(String sex){
-        if(sex.equals("W")){
+    public boolean czyKobieta(String sex) {
+        if (sex.equals("W")) {
             return true;
-        }else return false;
+        } else return false;
     }
 
     @Override
@@ -55,7 +53,5 @@ public class Osoba {
                 ", sex='" + sex + '\'' +
                 '}';
     }
-
-
 
 }
